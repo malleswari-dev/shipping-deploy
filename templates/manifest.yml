@@ -46,7 +46,7 @@ spec:
             path: /health
             port: 8080
           initialDelaySeconds: 60
-          periodSeconds: 100
+          periodSeconds: 10
           timeoutSeconds: 5
           failureThreshold: 6
 
@@ -55,7 +55,7 @@ spec:
             path: /health
             port: 8080
           initialDelaySeconds: 30
-          periodSeconds: 100
+          periodSeconds: 10
   
         # readinessProbe:
         #   httpGet:
