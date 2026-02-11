@@ -1,0 +1,6 @@
+deployment:
+  imageRepo: 372836560231.dkr.ecr.us-east-1.amazonaws.com/roboshop/shipping
+  imageVersion: IMAGE_VERSION1
+service:
+  type: ClusterIP 
+  servicePort: 8080
